@@ -1,8 +1,8 @@
 void main() {
-  const number = 10;
-  int nextNumber = 1;
+  const number = 63;
+  int nextNumber = 2;
 
-  for (var d = number; d > 1; d ~/ 2) {
+  for (var d = number; d > 1; d = d ~/ 2) {
     nextNumber = nextNumber * 2;
   }
 
